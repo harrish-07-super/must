@@ -1,0 +1,21 @@
+h2{
+    font-size: 25px !important;
+}
+.btn-success:hover{
+    background-color:rgb(98, 0, 255) ;
+}
+
+button{
+    font-size: 20px;
+}
+
+canvas{
+    animation-name: MUSTACHE;
+    animation-duration: 2s;
+    animation-iteration-count:infinite;
+}
+
+@keyframes MUSTACHE{
+    from{box-shadow: 1px 1px 35px rgb(0, 255, 34);}
+    to{box-shadow: 1px 1px 35px rgb(208, 255, 0);}
+}
